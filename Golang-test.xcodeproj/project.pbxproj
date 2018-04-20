@@ -1,0 +1,583 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		95A4537A208A46EF00A681CB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95A45379208A46EF00A681CB /* AppDelegate.swift */; };
+		95A4537C208A46EF00A681CB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95A4537B208A46EF00A681CB /* ViewController.swift */; };
+		95A4537F208A46EF00A681CB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 95A4537D208A46EF00A681CB /* Main.storyboard */; };
+		95A45381208A46EF00A681CB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 95A45380208A46EF00A681CB /* Assets.xcassets */; };
+		95A45384208A46EF00A681CB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 95A45382208A46EF00A681CB /* LaunchScreen.storyboard */; };
+		95A4538F208A46EF00A681CB /* Golang_testTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95A4538E208A46EF00A681CB /* Golang_testTests.swift */; };
+		95A4539A208A46EF00A681CB /* Golang_testUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95A45399208A46EF00A681CB /* Golang_testUITests.swift */; };
+		95A453B6208A60CB00A681CB /* SwiftPrinter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95A453B5208A60CB00A681CB /* SwiftPrinter.swift */; };
+		95F532AC208A77DA003DC6AD /* greeter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 95F532AB208A77DA003DC6AD /* greeter.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		95A4538B208A46EF00A681CB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 95A4536E208A46EF00A681CB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 95A45375208A46EF00A681CB;
+			remoteInfo = "Golang-test";
+		};
+		95A45396208A46EF00A681CB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 95A4536E208A46EF00A681CB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 95A45375208A46EF00A681CB;
+			remoteInfo = "Golang-test";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		95A45376208A46EF00A681CB /* Golang-test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Golang-test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		95A45379208A46EF00A681CB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		95A4537B208A46EF00A681CB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		95A4537E208A46EF00A681CB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		95A45380208A46EF00A681CB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		95A45383208A46EF00A681CB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		95A45385208A46EF00A681CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		95A4538A208A46EF00A681CB /* Golang-testTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Golang-testTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		95A4538E208A46EF00A681CB /* Golang_testTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Golang_testTests.swift; sourceTree = "<group>"; };
+		95A45390208A46EF00A681CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		95A45395208A46EF00A681CB /* Golang-testUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Golang-testUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		95A45399208A46EF00A681CB /* Golang_testUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Golang_testUITests.swift; sourceTree = "<group>"; };
+		95A4539B208A46EF00A681CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		95A453B5208A60CB00A681CB /* SwiftPrinter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftPrinter.swift; sourceTree = "<group>"; };
+		95F532AB208A77DA003DC6AD /* greeter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = greeter.framework; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		95A45373208A46EF00A681CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95F532AC208A77DA003DC6AD /* greeter.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95A45387208A46EF00A681CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95A45392208A46EF00A681CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		95A4536D208A46EF00A681CB = {
+			isa = PBXGroup;
+			children = (
+				95A45378208A46EF00A681CB /* Golang-test */,
+				95A4538D208A46EF00A681CB /* Golang-testTests */,
+				95A45398208A46EF00A681CB /* Golang-testUITests */,
+				95A45377208A46EF00A681CB /* Products */,
+				95A453A7208A4A4A00A681CB /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		95A45377208A46EF00A681CB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				95A45376208A46EF00A681CB /* Golang-test.app */,
+				95A4538A208A46EF00A681CB /* Golang-testTests.xctest */,
+				95A45395208A46EF00A681CB /* Golang-testUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		95A45378208A46EF00A681CB /* Golang-test */ = {
+			isa = PBXGroup;
+			children = (
+				95A45379208A46EF00A681CB /* AppDelegate.swift */,
+				95A4537B208A46EF00A681CB /* ViewController.swift */,
+				95A4537D208A46EF00A681CB /* Main.storyboard */,
+				95A45380208A46EF00A681CB /* Assets.xcassets */,
+				95A45382208A46EF00A681CB /* LaunchScreen.storyboard */,
+				95A45385208A46EF00A681CB /* Info.plist */,
+				95A453B5208A60CB00A681CB /* SwiftPrinter.swift */,
+			);
+			path = "Golang-test";
+			sourceTree = "<group>";
+		};
+		95A4538D208A46EF00A681CB /* Golang-testTests */ = {
+			isa = PBXGroup;
+			children = (
+				95A4538E208A46EF00A681CB /* Golang_testTests.swift */,
+				95A45390208A46EF00A681CB /* Info.plist */,
+			);
+			path = "Golang-testTests";
+			sourceTree = "<group>";
+		};
+		95A45398208A46EF00A681CB /* Golang-testUITests */ = {
+			isa = PBXGroup;
+			children = (
+				95A45399208A46EF00A681CB /* Golang_testUITests.swift */,
+				95A4539B208A46EF00A681CB /* Info.plist */,
+			);
+			path = "Golang-testUITests";
+			sourceTree = "<group>";
+		};
+		95A453A7208A4A4A00A681CB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				95F532AB208A77DA003DC6AD /* greeter.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		95A45375208A46EF00A681CB /* Golang-test */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 95A4539E208A46EF00A681CB /* Build configuration list for PBXNativeTarget "Golang-test" */;
+			buildPhases = (
+				95A45372208A46EF00A681CB /* Sources */,
+				95A45373208A46EF00A681CB /* Frameworks */,
+				95A45374208A46EF00A681CB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Golang-test";
+			productName = "Golang-test";
+			productReference = 95A45376208A46EF00A681CB /* Golang-test.app */;
+			productType = "com.apple.product-type.application";
+		};
+		95A45389208A46EF00A681CB /* Golang-testTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 95A453A1208A46EF00A681CB /* Build configuration list for PBXNativeTarget "Golang-testTests" */;
+			buildPhases = (
+				95A45386208A46EF00A681CB /* Sources */,
+				95A45387208A46EF00A681CB /* Frameworks */,
+				95A45388208A46EF00A681CB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				95A4538C208A46EF00A681CB /* PBXTargetDependency */,
+			);
+			name = "Golang-testTests";
+			productName = "Golang-testTests";
+			productReference = 95A4538A208A46EF00A681CB /* Golang-testTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		95A45394208A46EF00A681CB /* Golang-testUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 95A453A4208A46EF00A681CB /* Build configuration list for PBXNativeTarget "Golang-testUITests" */;
+			buildPhases = (
+				95A45391208A46EF00A681CB /* Sources */,
+				95A45392208A46EF00A681CB /* Frameworks */,
+				95A45393208A46EF00A681CB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				95A45397208A46EF00A681CB /* PBXTargetDependency */,
+			);
+			name = "Golang-testUITests";
+			productName = "Golang-testUITests";
+			productReference = 95A45395208A46EF00A681CB /* Golang-testUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		95A4536E208A46EF00A681CB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = hryan;
+				TargetAttributes = {
+					95A45375208A46EF00A681CB = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					95A45389208A46EF00A681CB = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 95A45375208A46EF00A681CB;
+					};
+					95A45394208A46EF00A681CB = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 95A45375208A46EF00A681CB;
+					};
+				};
+			};
+			buildConfigurationList = 95A45371208A46EF00A681CB /* Build configuration list for PBXProject "Golang-test" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 95A4536D208A46EF00A681CB;
+			productRefGroup = 95A45377208A46EF00A681CB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				95A45375208A46EF00A681CB /* Golang-test */,
+				95A45389208A46EF00A681CB /* Golang-testTests */,
+				95A45394208A46EF00A681CB /* Golang-testUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		95A45374208A46EF00A681CB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95A45384208A46EF00A681CB /* LaunchScreen.storyboard in Resources */,
+				95A45381208A46EF00A681CB /* Assets.xcassets in Resources */,
+				95A4537F208A46EF00A681CB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95A45388208A46EF00A681CB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95A45393208A46EF00A681CB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		95A45372208A46EF00A681CB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95A453B6208A60CB00A681CB /* SwiftPrinter.swift in Sources */,
+				95A4537C208A46EF00A681CB /* ViewController.swift in Sources */,
+				95A4537A208A46EF00A681CB /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95A45386208A46EF00A681CB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95A4538F208A46EF00A681CB /* Golang_testTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95A45391208A46EF00A681CB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95A4539A208A46EF00A681CB /* Golang_testUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		95A4538C208A46EF00A681CB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 95A45375208A46EF00A681CB /* Golang-test */;
+			targetProxy = 95A4538B208A46EF00A681CB /* PBXContainerItemProxy */;
+		};
+		95A45397208A46EF00A681CB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 95A45375208A46EF00A681CB /* Golang-test */;
+			targetProxy = 95A45396208A46EF00A681CB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		95A4537D208A46EF00A681CB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				95A4537E208A46EF00A681CB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		95A45382208A46EF00A681CB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				95A45383208A46EF00A681CB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		95A4539C208A46EF00A681CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		95A4539D208A46EF00A681CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		95A4539F208A46EF00A681CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/Golang-test",
+				);
+				INFOPLIST_FILE = "Golang-test/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bouncelabs.Golang-test";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		95A453A0208A46EF00A681CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/Golang-test",
+				);
+				INFOPLIST_FILE = "Golang-test/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bouncelabs.Golang-test";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		95A453A2208A46EF00A681CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Golang-testTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bouncelabs.Golang-testTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Golang-test.app/Golang-test";
+			};
+			name = Debug;
+		};
+		95A453A3208A46EF00A681CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Golang-testTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bouncelabs.Golang-testTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Golang-test.app/Golang-test";
+			};
+			name = Release;
+		};
+		95A453A5208A46EF00A681CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Golang-testUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bouncelabs.Golang-testUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Golang-test";
+			};
+			name = Debug;
+		};
+		95A453A6208A46EF00A681CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Golang-testUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bouncelabs.Golang-testUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Golang-test";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		95A45371208A46EF00A681CB /* Build configuration list for PBXProject "Golang-test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				95A4539C208A46EF00A681CB /* Debug */,
+				95A4539D208A46EF00A681CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		95A4539E208A46EF00A681CB /* Build configuration list for PBXNativeTarget "Golang-test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				95A4539F208A46EF00A681CB /* Debug */,
+				95A453A0208A46EF00A681CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		95A453A1208A46EF00A681CB /* Build configuration list for PBXNativeTarget "Golang-testTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				95A453A2208A46EF00A681CB /* Debug */,
+				95A453A3208A46EF00A681CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		95A453A4208A46EF00A681CB /* Build configuration list for PBXNativeTarget "Golang-testUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				95A453A5208A46EF00A681CB /* Debug */,
+				95A453A6208A46EF00A681CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 95A4536E208A46EF00A681CB /* Project object */;
+}
